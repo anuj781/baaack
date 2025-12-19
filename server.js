@@ -13,7 +13,7 @@ const app = express();
 /* ================= CORS ================= */
 app.use(
   cors({
-    origin: "https://froontend-one.vercel.app/", // 🔒 replace with frontend URL in production
+    origin: "https://froontend-v1dp.vercel.app/", // 🔒 replace with frontend URL in production
     methods: ["GET", "POST", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
